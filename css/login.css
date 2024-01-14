@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:'Roboto', sans-serif;
+}
+main{
+    height: 600px;
+    width: 320px;
+    background: #eef1ec;
+    border-radius: 35px;
+    box-shadow: 12px 12px 10px 1px rgba(34, 60, 80, 0.2);
+}
+header{
+    width: 100%;
+    height: 10%;
+}
+
+.top-line{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.top-line div{
+    width: 15%;
+    height: 10%;
+    background: rgb(113, 108, 108);
+}
+.back{
+    display: flex;
+    align-items: center;
+    height: 40%;
+    padding: 0 1rem;
+}
+.back p{
+    padding-left: 6ren;
+    font-size: 0.8ren;
+
+}
+.content{
+    width: 100%;
+    height: 60%;
+}
+.content h1{
+    font-size: 2rem;
+    padding: 0.5rem;
+
+}
+.nike-image{
+    width: 100%;
+    height: 70%;
+    background: url(https://images.drive.ru/i/0/5e1849c3ec05c4302e0000ac.jpg) center/ cover no-repeat;
+}
+.rotate{
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    align-items: center;
+}
+.progress{
+    width: 70%;
+    height: 6%;
+    background: url(https://images.drive.ru/i/0/5e1849c3ec05c4302e0000ac.jpg);
+    margin: 0 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.progress_active{
+    width: 20%;
+    height: 100%;
+    background: black;
+    border-radius: 5px;
+}
+.circle{
+    padding: 1rem;
+    background: url(./svg/repeat.svg) center / cover no-repeat;
+}
+.circle p{
+    padding: 0.4rem;
+}
+footer{
+    width: 100%;
+    height: 35%;
+
+}
+.colors, .sizes{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.color{
+    width: 30px;
+    height: 30px;
+    background: red;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+.color:nth-child(1){
+    background: rgb(156,156,237);
+}
+.color:nth-child(2){
+background: rgb(222,168,186);
+}
+.color:nth-child(3){
+    background: silver;
+}
+.color:nth-child(4){
+    background: black;
+}
+.size ul{
+    list-style-type: none;
+}
+.size{
+    padding: 0.5rem 1rem;
+    background: grey;
+}
+.size{
+    margin-right: 0.3rem;
+    border-radius: 5px;
+}
+.size:last-child{
+    display: flex;
+    align-items: center;
+}
+.size:last-child ul{
+    display: flex;
+}
+
+.size:last-child li{
+    width: 5px;
+    height: 5px;
+    margin: 0.3rem;
+    background: black;
+    border-radius: 50%;
+}
+.down{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.down_icon{
+    width: 10px;
+    height: 10px;
+    background: url(./svg/down.svg) center / no-repeat;
+}
+
+.down_icon:last-child{
+        background: rgba(128,128,128,0.628);
+        width: 50%;
+        height: 5px;
+        border-radius: 5px;
+        margin-top: 3px;
+    }
